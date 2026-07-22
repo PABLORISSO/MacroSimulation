@@ -1,0 +1,4 @@
+import * as echarts from "echarts";
+import argentina from "../maps/argentina.json";
+
+echarts.registerMap("argentina", argentina);
